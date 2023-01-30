@@ -1,0 +1,39 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint-config-prettier", "tslint-plugin-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**",
+      "src/components/TVChartContainer/index.vue"
+    ]
+  },
+  "rules": {
+    "prettier": true,
+    "no-debugger": false,
+    "no-console": [false],
+    "no-eval": true,
+    "no-empty": true,
+    "no-arg": true,
+    "no-var-keyword": true,
+    "no-conditional-assignment": true,
+    "no-duplicate-variable": true,
+    "no-construct": true,
+    "no-duplicate-super": true,
+    "no-invalid-template-strings": true,
+    "no-string-throw": true,
+    "radix": true,
+    "class-name": true,
+    "forin": true,
+    "triple-equals": true,
+    "prefer-const": true,
+    "member-access": false,
+    "max-classes-per-file": [true, 3],
+    "max-file-line-count": [true, 1000],
+    "no-unnecessary-initializer": true,
+    "object-literal-shorthand": true,
+    "one-variable-per-declaration": true,
+    "object-literal-sort-keys": false,
+    "variable-name": [true, "check-format", "allow-pascal-case"],
+    "typedef": [true]
+  }
+}
